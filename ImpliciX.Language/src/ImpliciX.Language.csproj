@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="GitInfo" Version="2.2.0" />
+    </ItemGroup>
+
+</Project>

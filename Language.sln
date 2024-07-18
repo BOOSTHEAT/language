@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29512.175
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpliciX.Language", "ImpliciX.Language\src\ImpliciX.Language.csproj", "{390C9DFA-F2A4-40A3-A17A-9C17DE3EEFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpliciX.Language.Tests", "ImpliciX.Language\tests\ImpliciX.Language.Tests.csproj", "{E67A50A4-ECF4-4B4B-BB5A-46C131B4FB5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{AAB9A789-3D40-47CF-98A5-574FCF0A2FC1}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-language.yml = azure-pipelines-language.yml
+		azure-pipelines-template-dotnet-setup.yml = azure-pipelines-template-dotnet-setup.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpliciX.Language.Generators", "ImpliciX.Language\generators\ImpliciX.Language.Generators.csproj", "{B3D550EE-16AB-4C67-905F-528B4DBDBF8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE61F268-0900-400A-BF77-F2E0EEB691BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE61F268-0900-400A-BF77-F2E0EEB691BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE61F268-0900-400A-BF77-F2E0EEB691BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE61F268-0900-400A-BF77-F2E0EEB691BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04FE7DE-719C-435C-9264-7171CBB87DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04FE7DE-719C-435C-9264-7171CBB87DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04FE7DE-719C-435C-9264-7171CBB87DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04FE7DE-719C-435C-9264-7171CBB87DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9664338-89A0-445F-AC77-13750A8A9E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9664338-89A0-445F-AC77-13750A8A9E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9664338-89A0-445F-AC77-13750A8A9E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9664338-89A0-445F-AC77-13750A8A9E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390C9DFA-F2A4-40A3-A17A-9C17DE3EEFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390C9DFA-F2A4-40A3-A17A-9C17DE3EEFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390C9DFA-F2A4-40A3-A17A-9C17DE3EEFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390C9DFA-F2A4-40A3-A17A-9C17DE3EEFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67A50A4-ECF4-4B4B-BB5A-46C131B4FB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67A50A4-ECF4-4B4B-BB5A-46C131B4FB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67A50A4-ECF4-4B4B-BB5A-46C131B4FB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67A50A4-ECF4-4B4B-BB5A-46C131B4FB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D550EE-16AB-4C67-905F-528B4DBDBF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D550EE-16AB-4C67-905F-528B4DBDBF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D550EE-16AB-4C67-905F-528B4DBDBF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D550EE-16AB-4C67-905F-528B4DBDBF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9C0BCC1-0184-44B3-A2E1-6D0D2B201DE4}
+	EndGlobalSection
+EndGlobal
